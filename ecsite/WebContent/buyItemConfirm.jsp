@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/header.css">
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <title>Insert title here</title>
@@ -18,7 +19,7 @@
 </script>
 </head>
 <body>
-	<div id="header"></div>
+<jsp:include page="header.jsp" />
 	<div id="main">
 		<div id="top">
 			<p>BuyItem</p>
