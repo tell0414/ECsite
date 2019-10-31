@@ -9,6 +9,7 @@
 <title>Login画面</title>
 </head>
 <body>
+<div class="backclor">
 	<div id="header">
 	</div>
 	<div id="main">
@@ -29,9 +30,9 @@
 			<p>Homeへ戻る場合は
 				<a href='<s:url action="GoHomeAction"/>'>こちら</a></p>
 			</div>
-</div>
+		</div>
 		</div>
 		<div id="footer"></div>
-
+</div>
 </body>
 </html>

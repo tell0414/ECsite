@@ -1,13 +1,21 @@
-body{
-	margin:0;
-	padding:0;
-	line-height:1.6;
-	letter-spacing:1px;
-	font-family:Verdana,Helvetica,sana-serif;
-	font-sixe:12px;
-	color:#333;
-	background:#fff;
+.main{
+	background-color:#FFD54F;
+	background:linear-gradient(#FFD54F,#FFA000);
 }
+
+.main::after {
+	content: '';
+	height:100%;
+	width:100%;
+	display:block;
+	background-size: 20px 20px;
+	background-image:
+	 linear-gradient(rgba(255,255,255,.25) 3%, rgba(255,255,255,.25) 3%, transparent 3%,
+	  transparent 97%, rgba(255,255,255,.25) 97%, rgba(255,255,255,.25) 100%),
+	 linear-gradient(90deg, rgba(255,255,255,.25) 3%, rgba(255,255,255,.25) 3%, transparent 3%,
+	  transparent 97%, rgba(255,255,255,.25) 97%, rgba(255,255,255,.25) 100%);
+}
+
 table{
 	text-align:center;
 	margin:0 auto;
